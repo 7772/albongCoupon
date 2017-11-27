@@ -12,7 +12,15 @@ AWS Mobile Hub 를 RN 프로젝트에 적용하는 방법을 설명하는 리포
         * 이때, react-native eject 를 선택 (Expo 는 callback 에러가 발생)
         
 
-* 아래 코드을 실행해야 로긴 
-awsmobile user-signin enable
+* 아래 코드을 실행해야 로긴 가능
 
-awsmobile push
+    $ awsmobile user-signin enable
+
+* 변경사항이 생긴 이후에는 다음 작업 실행
+
+    $ awsmobile push
+
+    $ awsmobile pull    
+
+    * 관련해서 더 자세한 awsmobile cli 사용법 확인
+
